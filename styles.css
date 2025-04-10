@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+      /* Fondo con capa semitransparente */
+      background: linear-gradient(rgba(245, 245, 245, 0.7), rgba(245, 245, 245, 0.7)), 
+      url('C:/xampp/htdocs/liga pro/img/img1.png') center/cover fixed no-repeat;
+
+/* Asegurar que el texto esté al frente */
+position: relative;
+z-index: 1;
+color: #333; /* Color de texto oscuro para mejor contraste */
+}
+}
+
+
+C:/xampp/htdocs/liga pro/img/img2.jpg
+/* Encabezado */
+header {
+    background: linear-gradient(135deg, #0033a0, #00257a);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.subtitulo {
+    font-style: italic;
+    margin-top: 5px;
+    opacity: 0.9;
+}
+
+/* Navegación */
+nav {
+    background-color: #ffd100;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0033a0;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    background-color: #0033a0;
+    color: white;
+}
+
+/* Contenido principal */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
